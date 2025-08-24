@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+}
+.header{
+    background: url(./media/header\ bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 130px 0 130px ;
+}
+.nav-1-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-1-logo{
+    width: 100px;
+}
+.nav-1-h2{
+    color: white;
+    font-size: 15px;
+}
+.nav-1-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* NAV 2 */
+.nav-2{
+    background-color: white;
+    margin: 30px 100px 0 100px;
+    padding: 18px 10px;
+}
+.nav-2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-2-img{
+    width: 70px;
+}
+
+/* banner text arera */
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    gap: 20px;
+    padding-left: 150px;
+}
+.banner-text-h4{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.banner-text-h1{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 400;
+}
+.banner-text-p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+}
+.banner-btn{
+    float: right;
+    margin-top: 50px;
+}
+.banner-btn a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(221,0,0);
+    padding: 25px 20px;
+    margin-right: 150px;
+    font-weight: 600;
+}
+
+/* bikes  */
+
+.bikes-btn{
+    text-align: center;
+    padding-top: 80px;
+}
+.bikes-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221,0,0);
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 16x;
+}
+.bikes-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+.bikes-col{
+    height: 300px;
+}
+.bikes-img{
+    width: 320px;
+    height: auto;
+}
+.bikes-name-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.bikes-name-div span{
+    padding: 10px 5px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.381);
+}
+.bikes-name{
+    font-size: 28px;
+    font-weight: 100;
+}
+
+
+/* highlight */
+
+.highlight{
+    padding-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.highlight-heading{
+    text-align: center;
+    color: rgb(187,188,188);
+    font-size: 38px;
+    font-weight: 300;
+    padding-bottom: 80px;
+    letter-spacing: 3px;
+    
+}
+.highlight-row{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.highlight-col{
+    display: flex;
+    gap: 50px;
+    height: 290px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.277);
+    border-left: 4px solid rgb(221,0,0);
+
+}
+.highlight-col:hover{
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.362);
+    transition: all 0.3s ease;
+
+}
+.highlight-col-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 30px;
+}
+.highlight-col-right{
+    width: 50%;
+}
+.highlight-left-h3{
+    color: rgb(44, 47, 73);
+    font-size: 16px;
+    font-weight: 100;
+}
+.highlight-left-h1{
+    font-size: 31px;
+    font-weight: 400;
+}
+.highlight-left-p{
+    font-size: 19px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}
+.highlight-col-left span a{
+    text-decoration: none;
+    color: rgb(221,0,0);
+}
+.highlight-right-img{
+    width: 720px;
+    height: 290px;
+}
+
+/* ducati corse */
+.two-div {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+
+}
+.div-left, .div-right {
+  flex: 1;
+  position: relative;
+}
+.div-left img, .div-right img {
+  width: 100%;
+  height: 500px;
+  display: block;
+  position: relative;
+}
+.img-text{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    gap: 15px;
+}
+.img-text p{
+    font-size: 18px;
+}
+.img-text h1{
+    font-size: 30px;
+}
+
+/* news */
+.news{
+    padding-top: 60px;
+}
+.news-row{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px 0 100px;
+}
+.news-col{
+    width: 450px;
+    height: 450px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.379);
+}
+.news-col:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.46);
+}
+.news-img{
+    width: 450px;
+}
+.news-col p{
+    padding: 20px;
+    color: rgb(122, 125, 125);
+}
+.news-col h2{
+    padding: 0 50px 20px 20px;
+    font-weight: 200;
+    text-align: left;
+}
+
+/* enjoy */
+
+.enjoy{
+    padding-top: 60px;
+}
+.enjoy-row{
+    display: flex;
+}
+.enjoy-col{
+    width: 33.4%;
+    position: relative;
+}
+.enjoy-img{
+    width: 100%;
+    filter: brightness(50%);
+}
+.enjoy-img:hover{
+    filter: brightness(45%);
+    transition: all 0.2s ease;
+}
+.enjoy-col h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+/* multi */
+.multi{
+    padding: 60px 100px 60px 100px;
+}
+
+/* multi-main */
+
+.multi-main{
+    background: url(./media/multi\ main.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 60px 100px 60px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.multi-main-text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 100px;
+}
+.multi-main-text h1{
+    color: white;
+    font-size: 30px;
+}
+.multi-main-text p{
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: 3px;
+
+}
+.multi-main-btn a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(221,0,0);
+    padding: 25px 20px;
+    margin-right: 150px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+/* monster banner */
+
+.monster-main{
+    background: url(./media/monster\ banner.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 60px 100px 60px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* insta */
+
+.insta-main{
+    background: url(./media/INSTA.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 60px 100px 60px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* news letter */
+
+.letter {
+  display: flex;   
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 90px;
+}
+
+.letter-container {
+  max-width: 700px;
+  text-align: center;   
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.inp{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.letter-h1{
+    font-size: 33px;
+}
+.letter-p{
+    color: rgb(122, 125, 125);
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.ltr-p1{
+    font-size: 17px;
+    color: rgba(122, 125, 125, 0.523);
+}
+.letter-btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(221,0,0);
+    padding: 20px 30px;
+    font-weight: 600;
+}
+.letter-btn a{
+    color: white;
+    text-decoration: none;
+}
+.input{
+    width: 450px;
+}
+
+/* footer{ */ 
+
+.footer{
+    margin-top: 90px;
+    background-color: rgb(15,15,15);
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 50px;
+}
+.footer-img{
+    width: 700px;
+}
+.footer-link ul{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+.footer-link ul li a{ 
+    display: inline-block;
+    color: rgb(102,102,102);
+    text-decoration: none;
+    font-size: 17px;
+}
+.footer-p{
+    color:rgb(102,102,102) ;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 100;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 400px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+.ftr-last{
+    display: flex;
+    gap: 100px;
+}
+.footer-last-img{
+    width: 100px;
+}
+.footer-last-img-2{
+    width: 50px;
+}
+.sm-logo1{
+    width: 10px;
+}
+.sm-logo{
+    width: 20px;
+}
+.sm-logos ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+.flag{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.flag img{
+    width: 35px;
+    height: 22px;
+}
+.flag h3{
+    color: rgb(102,102,102);
+    font-weight: 100;
+}
