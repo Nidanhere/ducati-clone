@@ -3,6 +3,22 @@
     padding: 0;
     font-family: "Cabin", sans-serif;
 }
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+img, .highlight-right-img, .news-img, .footer-img {
+  max-width: 100%;
+  height: auto;
+}
+.nav-2,
+.multi-main,
+.monster-main,
+.insta-main,
+.highlight {
+  margin: 30px auto;   /* centers, prevents pushing out */
+  padding: 0 20px;     /* safe spacing */
+}
 .header{
     background: url(./media/header\ bg.jpg);
     height: 100vh;
