@@ -7,18 +7,7 @@ html, body{
   max-width: 100%;
   overflow-x: hidden;
 }
-img, .highlight-right-img, .news-img, .footer-img {
-  max-width: 100%;
-  height: auto;
-}
-.nav-2,
-.multi-main,
-.monster-main,
-.insta-main,
-.highlight {
-  margin: 30px auto;   /* centers, prevents pushing out */
-  padding: 0 20px;     /* safe spacing */
-}
+
 .header{
     background: url(./media/header\ bg.jpg);
     height: 100vh;
@@ -158,9 +147,11 @@ img, .highlight-right-img, .news-img, .footer-img {
 /* highlight */
 
 .highlight{
-    padding-top: 80px;
+     margin: 30px auto;  /* center it */
+  padding: 0 20px; 
+    /* padding-top: 80px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; */
 }
 .highlight-heading{
     text-align: center;
@@ -219,8 +210,12 @@ img, .highlight-right-img, .news-img, .footer-img {
     color: rgb(221,0,0);
 }
 .highlight-right-img{
-    width: 720px;
-    height: 290px;
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+    /* width: 720px;
+    height: 290px; */
 }
 
 /* ducati corse */
@@ -278,7 +273,10 @@ img, .highlight-right-img, .news-img, .footer-img {
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.46);
 }
 .news-img{
-    width: 450px;
+    /* width: 450px; */
+    max-width: 100%;
+  height: auto;
+  display: block;
 }
 .news-col p{
     padding: 20px;
@@ -332,7 +330,9 @@ img, .highlight-right-img, .news-img, .footer-img {
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 60px 100px 60px 100px;
+    /* margin: 60px 100px 60px 100px; */
+     margin: 30px auto;  /* center it */
+  padding: 0 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -371,7 +371,9 @@ img, .highlight-right-img, .news-img, .footer-img {
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 60px 100px 60px 100px;
+    /* margin: 60px 100px 60px 100px; */
+     margin: 30px auto;  /* center it */
+  padding: 0 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -384,7 +386,9 @@ img, .highlight-right-img, .news-img, .footer-img {
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 60px 100px 60px 100px;
+    /* margin: 60px 100px 60px 100px; */
+     margin: 30px auto;  /* center it */
+  padding: 0 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -457,7 +461,10 @@ img, .highlight-right-img, .news-img, .footer-img {
     gap: 50px;
 }
 .footer-img{
-    width: 700px;
+    /* width: 700px; */
+    max-width: 100%;
+  height: auto;
+  display: block;
 }
 .footer-link ul{
     display: flex;
@@ -476,14 +483,20 @@ img, .highlight-right-img, .news-img, .footer-img {
     line-height: 1.6;
     font-weight: 100;
 }
-.footer-last{
+.footer-last {
+  display: flex;
+  flex-wrap: wrap;   /* ✅ allows wrapping */
+  gap: 50px;         /* much smaller gap */
+  justify-content: center;
+}
+/* .footer-last{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 400px;
     margin-top: 30px;
     padding-bottom: 100px;
-}
+} */
 .ftr-last{
     display: flex;
     gap: 100px;
